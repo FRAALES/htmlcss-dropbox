@@ -146,12 +146,30 @@ main{
     justify-content: space-between;
 }
 
+/* Tabella divisa in 3 colonne */
+
 .tabella-parte-alta{
     border: solid 1px black;
     padding: 9px;
     width: 30%;
     text-align: center;
 }
+
+.colonne-piano-business {
+    margin bottom: 50px;
+}
+
+
+.tab-main{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    width: 30%;
+    text-align: left;
+    padding: 9px;
+}
+
 
 
 
