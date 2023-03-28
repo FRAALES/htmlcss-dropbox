@@ -69,7 +69,7 @@ main{
     position: relative;
 }
 
-
+/* Regole jumbotron */
 .jumbotron{
     width: 100%;
     background-color: rgb(41, 199, 234);
@@ -126,3 +126,19 @@ main{
     height: 100%;
 }
 
+
+
+/* Regole main sezione centrale o piano business */
+
+
+.piano-business{
+    width: 60%;
+}
+
+
+
+.piano-business h1{
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+}
