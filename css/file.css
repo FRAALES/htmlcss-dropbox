@@ -146,7 +146,12 @@ main{
     justify-content: space-between;
 }
 
-
+.tabella-parte-alta{
+    border: solid 1px black;
+    padding: 9px;
+    width: 30%;
+    text-align: center;
+}
 
 
 
