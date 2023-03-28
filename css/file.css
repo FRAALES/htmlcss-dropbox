@@ -70,10 +70,17 @@ main{
 }
 
 
-.main-container-top{
+.jumbotron{
     width: 100%;
     height: 500px;
     background-color: rgb(41, 199, 234);
     position: absolute;
     top: 7vh;
+}
+
+
+.titolone{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
 }
