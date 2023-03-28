@@ -90,9 +90,9 @@ main{
 .jumbotron-sezione-destra{
     position: absolute;
     right: 0;
-    top: 300px;
+    top: 50px;
     height: 300px;
-    width: 45%;
+    width: 55%;
 }
 
 .jumbotron-sezione-destra img{
