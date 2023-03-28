@@ -127,8 +127,26 @@ main{
 
 .piano-business{
     width: 60%;
+    margin-left: 300px;
+    margin-top: 50px;
     background-color: white;
+    position: absolute;
+    top: 1254px;
 }
+
+#titolo-main{
+    margin-bottom: 50px;
+}
+
+
+.bottoni-main{
+    width: 400px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 
