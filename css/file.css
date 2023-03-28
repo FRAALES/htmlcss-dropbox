@@ -148,6 +148,13 @@ main{
 
 /* Tabella divisa in 3 colonne */
 
+.colonne-piano-business{
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 50px;
+}
+
+
 .tabella-parte-alta{
     border: solid 1px black;
     padding: 9px;
@@ -155,9 +162,7 @@ main{
     text-align: center;
 }
 
-.colonne-piano-business {
-    margin bottom: 50px;
-}
+
 
 
 .tab-main{
