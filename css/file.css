@@ -1,0 +1,34 @@
+/* Regole generali */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Regole di debug */
+
+
+
+/* Regole header */
+
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(172, 162, 162);
+}
+
+
+.header-sinistra{
+    width: 30%;
+    height: 100%;
+    background-color: orange;
+}
