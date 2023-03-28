@@ -16,9 +16,12 @@
 
 header{
     position: fixed;
+    z-index: 900;
     width: 100%;
-    height: 20vh;
-    background-color: rgb(172, 162, 162);
+    height: 7vh;
+    background-color: rgb(238, 224, 224);
+    display: flex;
+    justify-content: flex-start;
 }
 
 
@@ -26,9 +29,51 @@ header{
     width: 30%;
     height: 100%;
     background-color: orange;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 .logo-dropbox{
+    padding: 10px;
+}
+
+.menu-header{
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-destra{
+    width: 30%;
+    height: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#inizia{
+    background-color: blue;
+    color: white;
     padding: 5px;
+}
+
+
+/* Regole main */
+
+main{
+    position: relative;
+}
+
+
+.main-container-top{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(41, 199, 234);
+    position: absolute;
+    top: 7vh;
 }
