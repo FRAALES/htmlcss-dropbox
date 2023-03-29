@@ -258,5 +258,16 @@ main{
     object-fit: cover;
 }
 
+#mini-section-business{
+    margin-top: 200px;
+    margin-bottom: 30px;
+    max-width: 50%;
+}
+
+
+#link-db{
+    padding-top: 50px;
+    font-size: 12px;
+}
 
 
