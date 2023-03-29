@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -56,6 +57,12 @@ header{
     color: white;
     padding: 5px;
 }
+
+/* .nav-link{
+    padding: 0 10px;
+    display: block;
+    height: 100%;
+} */
 
 
 /* Regole main */
@@ -199,17 +206,50 @@ main{
     margin-right: 20px;
 }
 
-
-#partner{
-    width: 60%;
-    float: left;
-    margin-right: 40px;
+#partners-section{
+    width: 100%;
+    display: flex;
 }
 
 
 
+#partner{
+    width: 60%;
+}
+
+#p-partners{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#button-partner{
+    padding: 10px;
+    background-color: white;
+}
+
 .partner-right{
     margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#DB{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.db-row {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.db-col {
+    max-width: 100%;
 }
 
 
