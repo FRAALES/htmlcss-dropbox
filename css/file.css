@@ -249,7 +249,7 @@ main{
 }
 
 .db-col {
-    max-width: 100%;
+    max-width: calc (100%/3);
 }
 
 .db-col img{
