@@ -150,7 +150,6 @@ main{
 
 .colonne-piano-business{
     display: flex;
-    justify-content: baseline;
     margin-bottom: 50px;
 }
 
@@ -158,7 +157,7 @@ main{
 .tabella-parte-alta{
     border: solid 1px black;
     padding: 9px;
-    width: 30%;
+    width: 100%;
     text-align: center;
 }
 
@@ -170,9 +169,34 @@ main{
     display: flex;
     flex-direction: column;
     border: solid 1px black;
-    width: 30%;
+    width: 100%;
+    height: 500px;
     text-align: left;
     padding: 9px;
+}
+
+
+.tab-sezione-larga{
+    width: 100%;
+    border: solid 1px black;
+
+}
+
+.enterprise{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#p-tab{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+    width: 60%;
+
+}
+
+#vendite{
+ 
 }
 
 
