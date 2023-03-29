@@ -155,7 +155,7 @@ main{
 
 
 .tabella-parte-alta{
-    border: solid 1px black;
+    border: solid 1px rgb(246, 242, 242);
     padding: 9px;
     width: 100%;
     text-align: center;
@@ -168,7 +168,7 @@ main{
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    border: solid 1px black;
+    border: solid 1px rgb(246, 242, 242);
     width: 100%;
     height: 500px;
     text-align: left;
@@ -178,8 +178,8 @@ main{
 
 .tab-sezione-larga{
     width: 100%;
-    border: solid 1px black;
-
+    border: solid 1px rgb(246, 242, 242);
+    margin-bottom: 100px;
 }
 
 .enterprise{
@@ -192,14 +192,25 @@ main{
     padding-left: 20px;
     padding-top: 50px;
     width: 60%;
-
 }
 
 #vendite{
- 
+    float: right;
+    margin-right: 20px;
 }
 
 
+#partner{
+    width: 60%;
+    float: left;
+    margin-right: 40px;
+}
+
+
+
+.partner-right{
+    margin-top: 50px;
+}
 
 
 
