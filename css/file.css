@@ -370,3 +370,70 @@ main{
 
 /* Qui ci sono le regole della parte celeste sotto i quadrati colorati, con l'h1 e il button */
 
+.porta{
+    background-color: rgb(41, 199, 234);
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 4900px;
+
+}
+
+.h1-container{
+    margin: 50px 20px 30px 200px;
+    width: 30%;
+}
+
+.button-container{
+    margin: 50px;
+}
+
+#inizia-la-tua{
+    padding: 20px;
+}
+
+
+/* Qui ci sono le regole per la sezione delle domande */
+
+.domande {
+    background-color: white;
+    position: absolute;
+    top: 5100px;
+    width: 100%;
+}
+
+.domande-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* Qui ci vanno le regole del footer */
+
+footer{
+    background-color: black;
+    position: absolute;
+    top: 5300px;
+    width: 100%;
+    color: white;
+}
+
+
+
+.footer-container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.dropbox-col-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+
+.no-dots{
+    list-style-type: none;
+}
